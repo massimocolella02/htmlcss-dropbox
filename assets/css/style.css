@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Utility */
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+header{
+    padding: 20px 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+header div img, a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0D0D0D;
+}
