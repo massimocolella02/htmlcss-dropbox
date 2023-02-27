@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html css dropbox</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="flex space-between">
-        <!-- Qui Header in position fixed o sitcky -->
-        <div class="flex align-items-center">
-            <img src="./assets/img/logo-small.png" alt="">
-            <a href="#">Perchè Dropbox</a>
-            <a href="#">Funzioni</a>
-            <a href="#">Piani e Prezzi</a>
+        <div class="flex align-center">
+            <img src="./assets/img/logo-small.png" alt="Logo">
+            <a href="">Perchè Dropbox</a>
+            <a href="">Funzioni</a>
+            <a href="">Piani e Prezzi</a>
         </div>
-        <div class="flex align-items-center">
+        <div>
             <a href="">Supporto</a>
             <a href="">Contatta l'ufficio vendite</a>
             <a href="">Accedi</a>
@@ -25,11 +25,120 @@
     </header>
 
     <main>
-        <!-- Tutti i vari div fino a domande frequenti -->
+        <section>
+            <div>
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                <div id="container1" class="flex space-between">
+                    <div class="width40">
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro
+                            esistente.
+                        </p>
+                        <button>Inizia la tua prova gratuita</button>
+                        <span class="block">Annulla in qualsiasi momento</span>
+                        <span id="freccia" class="block">&#129139;</span>
+                    </div>
+                    <div class="width60 relative">
+                        <img class="absolute" src="./assets/img/jumbo.png" alt="Prima immagine" width="100%">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Trova il piano business che fa per te</h2>
+            <span id="radio1"><input type="radio">Fatturazione mensile</span>
+            <span><input type="radio">Fatturazione annuale</span>
+            
+            <!-- Prima card -->
+            <section class="flex space-between">
+                <div class="width30 card">
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <span>Singolo</span>
+                    </div>
+                    <div>
+                        <h3>Professional</h3>
+                        <span class="block margin-top13"><strong>€ 12.00</strong></span>
+                        <span class="block margin-top7 lightgrey">/mese</span>
+                        <ul class="margin-top22">
+                            <li class="margin-top7"><i class="fa-solid fa-user"></i> 1 Utente</li>
+                            <li class="margin-top7"><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                            <li class="margin-top7"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium
+                                e condivisione file semplice e sicura
+                            </li>
+                        </ul>
+                        <button class="margin-top22">Prova gratis per 30 giorni</button>
+                        <span class="block margin-top13">oppure <a href="">acquista ora</a></span>
+                        <hr class="margin-top22 width30">
+                        <h4 class="margin-top22">Punti Salienti del piano</h4>
+                        <ul class="margin-top22">
+                            <li class="margin-top7 check"> Invia file fino a 100 GB con Dropbox Transfert</li>
+                            <li class="margin-top7 check"> Cartelle offline su dispositivi mobili</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- seconda card -->
+                <div class="width30 card">
+                    <div>
+                        <i class="fa-solid fa-users"></i>
+                        <span>Team</span>
+                    </div>
+                    <div>
+                        <h3>Advanced</h3>
+                        <span class="block margin-top13"><strong>€ 18.00</strong></span>
+                        <span class="block margin-top7 lightgrey">/utente/mese</span>
+                        <ul class="margin-top22">
+                            <li class="margin-top7"><i class="fa-solid fa-users"></i> 3 o più utenti</li>
+                            <li class="margin-top7"><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                            <li class="margin-top7"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium
+                                e condivisione file semplice e sicura
+                            </li>
+                        </ul>
+                        <button class="margin-top22">Prova gratis per 30 giorni</button>
+                        <span class="block margin-top13">oppure <a href="">acquista ora</a></span>
+                        <hr class="margin-top22 width30">
+                        <h4 class="margin-top22">Punti Salienti del piano</h4>
+                        <ul class="margin-top22">
+                            <li class="margin-top7 check"> Invia file fino a 100 GB con Dropbox Transfert</li>
+                            <li class="margin-top7 check"> Cartelle offline su dispositivi mobili</li>
+                            <li class="margin-top7 check"> Risparmio del 50% rispetto alle iscrizioni singole</li>
+                            <li class="margin-top7 check"> Possibilità di inserire nuovi membri del team</li>
+                            <li class="margin-top7 check"> Gestione dei permessi in base ai ruoli</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- terza card -->
+                <div class="width30 card">
+                    <div>
+                        <i class="fa-solid fa-building"></i>
+                        <span>Azienda</span>
+                    </div>
+                    <div>
+                        <h3>Enterprise</h3>
+                        <span class="block margin-top13"><strong>Contattaci</strong></span>
+                        <span class="block margin-top7 lightgrey">-</span>
+                        <ul class="margin-top22">
+                            <li class="margin-top7"><i class="fa-solid fa-user"></i> 10 o più utenti</li>
+                            <li class="margin-top7"><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li>
+                            <li class="margin-top7"><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                        </ul>
+                        <button class="margin-top22">Prova gratis per 30 giorni</button>
+                        <span class="block margin-top13">oppure <a href="">acquista ora</a></span>
+                        <hr class="margin-top22 width30">
+                        <h4 class="margin-top22">Punti Salienti del piano</h4>
+                        <ul class="margin-top22">
+                            <li class="margin-top7 check"> Cartelle offline su dispositivi mobili</li>
+                            <li class="margin-top7 check"> Servizio assistenza 24/h</li>
+                            <li class="margin-top7 check"> Possibilità di personalizzazione totale</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
     </main>
 
     <footer>
-        <!-- Parte finale in nero -->
+
     </footer>
 </body>
 </html>

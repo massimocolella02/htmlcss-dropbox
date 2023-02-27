@@ -3,25 +3,123 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul li{
+    list-style-type: none;
+}
 /* Utility */
 .flex{
     display: flex;
 }
+.flex-column{
+    flex-direction: column;
+}
 .space-between{
     justify-content: space-between;
 }
-.align-items-center{
+.space-around{
+    justify-content: space-around;
+}
+.align-center{
     align-items: center;
 }
+.width60{
+    width: 60%;
+}
+.width40{
+    width: 40%;
+}
+.width30{
+    width: 30%;
+}
+.width55{
+    width: 55%;
+}
+.block{
+    display: block;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.margin-bottom{
+    margin-bottom: 8%
+}
+.margin-top22{
+    margin-top: 22px;
+}
+.margin-top13{
+    margin-top: 13px;
+}
+.margin-top7{
+    margin-top: 7px;
+}
+.lightgrey{
+    color: #8C8D8E;
+}
+.margin-auto{
+    margin: 0 auto;
+}
 header{
-    padding: 20px 10px;
+    background-color: white;
+    padding: 15px;
     position: sticky;
     top: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
     z-index: 1;
+    max-height: max-content;
 }
-header div img, a{
-    margin: 0 15px;
+header div a{
+    margin: 0 13px;
     text-decoration: none;
-    color: #0D0D0D;
+    color: #3D3D3D;
+}
+main section:first-child{
+    background-color: #B4D0E7;
+}
+main section:first-child > div{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+h1{
+    font-size: 58px;
+    margin-bottom: 3%;
+}
+#container1 > div button, #container1 > div span{
+    margin-top: 6%
+}
+#freccia{
+    font-size: 30px;
+}
+
+main section:nth-child(2){
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+main section:nth-child(2) input{
+    margin: 5% 0;
+    margin-right: 3px;
+}
+#radio1{
+    margin-right: 1%;
+}
+.card div:first-child{
+    border: 1px solid #DCDCDE;
+    padding: 3%;
+    text-align: center;
+}
+.card div:last-child{
+    border-bottom: 1px solid #DCDCDE;
+    border-left: 1px solid #DCDCDE;
+    border-right: 1px solid #DCDCDE;
+    padding: 10%;
+    height: 666.5px;
+}
+.check::before{
+    content: '\2713';
+    color: #0061FF;
 }
