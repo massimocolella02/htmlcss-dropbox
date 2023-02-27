@@ -19,6 +19,12 @@ ul li{
 .space-around{
     justify-content: space-around;
 }
+.flex-start{
+    justify-content: flex-start;
+}
+.flex-end{
+    justify-content: flex-end;
+}
 .align-center{
     align-items: center;
 }
@@ -76,10 +82,10 @@ header div a{
     text-decoration: none;
     color: #3D3D3D;
 }
-main section:first-child{
+#sezione1{
     background-color: #B4D0E7;
 }
-main section:first-child > div{
+#sezione1 > div{
     width: 65%;
     margin: 0 auto;
     padding-top: 5%;
@@ -95,12 +101,12 @@ h1{
     font-size: 30px;
 }
 
-main section:nth-child(2){
+#sezione2{
     width: 55%;
     margin: 0 auto;
     margin-top: 8%;
 }
-main section:nth-child(2) input{
+#sezione2 input{
     margin: 5% 0;
     margin-right: 3px;
 }
@@ -122,4 +128,16 @@ main section:nth-child(2) input{
 .check::before{
     content: '\2713';
     color: #0061FF;
+}
+#sezione2 section:last-child > div:first-child{
+    margin-top: 5%;
+    border: 1px solid #DCDCDE;
+    text-align: center;
+    padding: 1%;
+}
+#sezione2 section:last-child > div:last-child{
+    border-bottom: 1px solid #DCDCDE;
+    border-left: 1px solid #DCDCDE;
+    border-right: 1px solid #DCDCDE;
+    padding: 2%;
 }
