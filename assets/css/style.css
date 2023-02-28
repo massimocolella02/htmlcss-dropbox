@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 ul li{
     list-style-type: none;
@@ -123,7 +126,7 @@ h1{
     border-left: 1px solid #DCDCDE;
     border-right: 1px solid #DCDCDE;
     padding: 10%;
-    height: 666.5px;
+    height: 750.5px;
 }
 .check::before{
     content: '\2713';
@@ -229,11 +232,12 @@ h1{
     margin-bottom: 4%;
 }
 
+
 #sezione6{
     width: 100%;
     margin-top: 8%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 .sezione6-1{
     width: calc(100%/3);
@@ -244,7 +248,6 @@ h1{
     flex-basis: calc(100%/2);
     background-color: #A2D39B;
     border: 10px solid #D1E9CD;
-    width: calc(100%2);
     height: 32vh;
     display: flex;
     justify-content: center;
@@ -254,7 +257,6 @@ h1{
 .card2-6{
     flex-basis: calc(100%/2);
     background-color: #61082B;
-    width: calc(100%2);
     height: 32vh;
     display: flex;
     justify-content: center;
@@ -264,7 +266,6 @@ h1{
 .card3-6{
     flex-basis: calc(100%/2);
     background-color: #0093CE;
-    width: calc(100%2);
     height: 32vh;
     display: flex;
     justify-content: center;
@@ -274,12 +275,126 @@ h1{
 .card4-6{
     flex-basis: calc(100%/2);
     background-color: #FF1C1C;
-    width: calc(100%2);
     height: 32vh;
     display: flex;
     justify-content: center;
     align-content: center;
 }
-.card4-6 img, .card3-6 img, .card2-6 img, .card1-6 img{
+
+.sezione6-2{
+    flex-basis: calc(100%/3);
+    background-color: #F5F5F5;
+    padding: 2%;
+}
+.sezione6-2 hr{
+    width: 30%;
+    margin: 5% 0;
+}
+.sezione6-2 p{
+    margin-bottom: 10%;
+}
+.sezione6-3{
+    width: calc(100%/3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card5-6{
+    flex-basis: calc(100%/2);
+    background-color: #D5001F;
+    height: 32vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card6-6{
+    flex-basis: calc(100%/2);
+    background-color: #B4D0E7;
+    height: 32vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card7-6{
+    flex-basis: calc(100%/2);
+    background-color: #0D2481;
+    height: 32vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card8-6{
+    flex-basis: calc(100%/2);
+    background-color: #FFD830;
+    height: 32vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.card4-6 img, .card3-6 img, .card2-6 img, .card1-6 img, .card5-6 img, .card6-6 img, .card7-6 img, .card8-6 img{
     filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(94deg) brightness(107%) contrast(101%);
 }
+
+#sezione7{
+    width: 100%;
+    background-color: #B4D0E7;
+}
+.sezione7-1{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+.sezione7-1 div:first-child{
+    flex-basis: 50%;
+}
+.sezione7-1 div:last-child{
+    flex-basis: 50%;
+    margin-left: 5%;
+}
+
+#sezione8{
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+.bordertop{
+    border-top: 1px solid grey;
+}
+#sezione8 h2{
+    margin-bottom: 3%;
+}
+#sezione8 div{
+    border-bottom: 1px solid grey;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    position: relative;
+}
+.frecciagiu{
+    position: absolute;
+    right: 1%;
+}
+.frecciasu{
+    display: none;
+    position: absolute;
+    right: 1%;
+}
+#sezione8 h5{
+    display: inline-block;
+}
+#sezione8 div p{
+    margin-top: 2%;
+    display: none;
+}
+#sezione8 div:hover > p, #sezione8 div:hover .frecciasu{
+    display: inline-block;
+}
+#sezione8 div:hover .frecciagiu{
+    display: none;
+}
+
+
