@@ -9,22 +9,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="flex space-between">
-        <div class="flex align-center">
-            <img src="./assets/img/logo-small.png" alt="Logo">
-            <a href="">Perchè Dropbox</a>
-            <a href="">Funzioni</a>
-            <a href="">Piani e Prezzi</a>
-        </div>
-        <div>
-            <a href="">Supporto</a>
-            <a href="">Contatta l'ufficio vendite</a>
-            <a href="">Accedi</a>
-            <button class="bottoneblu">Inizia</button>
+    <header>
+        <!-- Header con le liste e il logo -->
+        <div class="listaheader flex space-between align-center">
+            <div>
+                <img src="./assets/img/logo-small.png" alt="" width="19%" id="imgheader">
+                <ul>
+                    <li>
+                        <a href="">Perchè Dropbox</a>
+                    </li>
+                    <li>
+                        <a href="">Funzioni</a>
+                    </li>
+                    <li>
+                        <a href="">Piani e Prezzi</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="">Supporto</a>
+                    </li>
+                    <li>
+                        <a href="">Contatta l'ufficio vendite</a>
+                    </li>
+                    <li>
+                        <a href="">Accedi</a>
+                    </li>
+                    <li>
+                        <button class="bottoneblu">Inizia</button>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 
     <main>
+        <!-- Main diviso per sezioni -->
         <section id="sezione1">
             <div>
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
@@ -35,7 +57,7 @@
                         </p>
                         <button class="bottoneblu">Inizia la tua prova gratuita</button>
                         <span class="block">Annulla in qualsiasi momento</span>
-                        <span id="freccia" class="block">&#129139;</span>
+                        <a href="#sezione2" id="freccia" class="block">&#129139;</a>
                     </div>
                     <div class="width60 relative">
                         <img class="absolute" src="./assets/img/jumbo.png" alt="Prima immagine" width="100%">

@@ -31,6 +31,9 @@ ul li{
 .align-center{
     align-items: center;
 }
+.align-base{
+    align-items: baseline;
+}
 .width60{
     width: 60%;
 }
@@ -76,21 +79,47 @@ ul li{
 .textnone{
     text-decoration: none;
 }
+
+/* Inizio Header */
 header{
     background-color: white;
-    padding: 15px;
-    position: sticky;
+    width: 100%;
+    height: 55px;
+    position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
+    border-bottom: 0.001px solid rgba(128, 128, 128, 0.2);
     z-index: 1;
-    max-height: max-content;
 }
-header div a{
-    margin: 0 13px;
+.listaheader div ul, .listaheader div ul li{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 14px;
+    line-height: 55px;
+}
+.listaheader div ul li a{
     text-decoration: none;
-    color: #3D3D3D;
+    color: #000000;
+    position: relative;
+    display: block;
+    padding: 0 2px;
 }
+.listaheader div ul li a::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-bottom: 3px solid rgba(128, 128, 128, 0.8);
+    height: 52px;
+    left: 0;
+}
+.listaheader div ul li a:hover::after{
+    width: 100%;
+}
+#imgheader{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+/* Fine Header */
+/* Inizio main */
 #sezione1{
     background-color: #B4D0E7;
 }
@@ -108,8 +137,9 @@ h1{
 }
 #freccia{
     font-size: 30px;
+    text-decoration: none;
+    color: #000000;
 }
-
 #sezione2{
     width: 55%;
     margin: 0 auto;
