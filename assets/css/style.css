@@ -276,6 +276,7 @@ h1{
 }
 .sezione6-1{
     width: calc(100%/3);
+    aspect-ratio: 1;
     display: flex;
     flex-wrap: wrap;
 }
@@ -283,7 +284,7 @@ h1{
     flex-basis: calc(100%/2);
     background-color: #A2D39B;
     border: 10px solid #D1E9CD;
-    height: 32vh;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,7 +293,7 @@ h1{
 .card2-6{
     flex-basis: calc(100%/2);
     background-color: #61082B;
-    height: 32vh;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,7 +302,7 @@ h1{
 .card3-6{
     flex-basis: calc(100%/2);
     background-color: #0093CE;
-    height: 32vh;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,7 +311,7 @@ h1{
 .card4-6{
     flex-basis: calc(100%/2);
     background-color: #FF1C1C;
-    height: 32vh;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -318,8 +319,10 @@ h1{
 
 .sezione6-2{
     flex-basis: calc(100%/3);
+    aspect-ratio: 1;
     background-color: #F5F5F5;
     padding: 2%;
+    overflow: overlay;
 }
 .sezione6-2 hr{
     width: 30%;
@@ -330,6 +333,7 @@ h1{
 }
 .sezione6-3{
     width: calc(100%/3);
+    aspect-ratio: 1;
     display: flex;
     flex-wrap: wrap;
 }
@@ -337,7 +341,7 @@ h1{
 .card5-6{
     flex-basis: calc(100%/2);
     background-color: #D5001F;
-    height: 32vh;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -346,7 +350,7 @@ h1{
 .card6-6{
     flex-basis: calc(100%/2);
     background-color: #B4D0E7;
-    height: 32vh;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -355,7 +359,7 @@ h1{
 .card7-6{
     flex-basis: calc(100%/2);
     background-color: #0D2481;
-    height: 32vh;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -364,7 +368,7 @@ h1{
 .card8-6{
     flex-basis: calc(100%/2);
     background-color: #FFD830;
-    height: 32vh;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-content: center;
